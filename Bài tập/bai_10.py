@@ -51,7 +51,6 @@ def main():
             GPIO.cleanup()
             cv2.destroyWindow(namewindow)
 
-
 try:
     main()
 except KeyboardInterrupt:
